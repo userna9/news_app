@@ -1,0 +1,39 @@
+# ---------- 依赖 ----------
+node_modules/
+.pnpm-store/
+
+# ---------- 构建产物 ----------
+dist/
+dist-ssr/
+*.local
+
+# ---------- 环境变量 / 密钥 ----------
+.env
+.env.*
+!.env.example
+
+# ---------- 日志 ----------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# ---------- IDE ----------
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ---------- 缓存 ----------
+.vite/
+node_modules/.vite/
+
+# ---------- 操作系统 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
